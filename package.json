@@ -1,0 +1,34 @@
+{
+  "name": "gulp-localize",
+  "main": "index.js",
+  "version": "0.1.0",
+  "description": "Create localized copies of your .html files using YAML translations",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shamansrl/gulp-localize.git"
+  },
+  "keywords": [
+    "gulp",
+    "gulpplugin",
+    "html",
+    "i18n",
+    "locale",
+    "translate",
+    "translation"
+  ],
+  "author": "Martino di Filippo <puntodifuga@gmail.com>",
+  "dependencies": {
+    "gulp-util": "3.0.1",
+    "merge": "1.2.0",
+    "through2": "0.6.3",
+    "yamljs": "0.2.0"
+  },
+  "devDependencies": {
+    "gulp": "3.8.8"
+  },
+  "bugs": {
+    "url": "https://github.com/shamansrl/gulp-localize/issues"
+  },
+  "homepage": "https://github.com/shamansrl/gulp-localize"
+}
