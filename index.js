@@ -7,7 +7,7 @@ var gutil = require('gulp-util'),
     File = gutil.File;
 
 const NAME = 'gulp-localize';
-const REG = /\{{2}\s?([\w\.]+)\s?\}{2}/g;
+const REG = /\{{2}\s?(\w[-\w\.]*)\s?\}{2}/g;
 const LOC = /\{{2}\s?\}{2}/g;
 
 function err(msg) {
