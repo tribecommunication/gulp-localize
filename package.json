@@ -1,7 +1,7 @@
 {
   "name": "gulp-localize",
   "main": "index.js",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Create localized copies of your .html files using YAML translations",
   "license": "MIT",
   "repository": {

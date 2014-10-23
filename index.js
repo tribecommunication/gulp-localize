@@ -45,6 +45,7 @@ module.exports = function(opt){
 
     var text = file.contents.toString(enc),
         key,
+        length,
         locale,
         match,
         result,
@@ -62,7 +63,10 @@ module.exports = function(opt){
           return cb();
         }
 
+        length = result.length;
         result = result.replace(match[0], string);
+
+        REG.lastIndex += result.length - length;
       }
 
       this.push(new File({
